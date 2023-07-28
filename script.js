@@ -68,3 +68,8 @@ document.getElementById('Calculate').onclick = function(){
     let statement="let num1 ="+ num1 +"<br> let num2 ="+ num2 +"<br>num1+num2-num1"
     document.getElementById('Statement').innerHTML=statement
     }
+    document.getElementById('Clear').onclick = function () {
+        var clear =""
+        document.getElementById('result').innerHTML=clear
+        document.getElementById('Statement').innerHTML=clear
+    }
